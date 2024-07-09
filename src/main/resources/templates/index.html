@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="./static/css/index.css">
     <script src="./static/js/jly.js"></script>
+
+
 </head>
 
 <body>
@@ -95,7 +97,7 @@
             </div>
 
             <div class="page page3">
-                <h2>优势</h2>
+                <h1>优势</h1>
                 <div>
                     <div class="left">
                         <img alt="" src="/static/img/logo-2.png">
@@ -104,7 +106,7 @@
                         <div>
                             <span class="title">
                                 <font class="dot" aria-hidden="true" color="#6366f1">.</font>
-                                专业
+                                专业度
 
                             </span>
                             <p>我们拥有专业的团队，能够提供专业的服务、长期的稳定性保障</p>
@@ -120,7 +122,7 @@
                         <div>
                             <span class="title">
                                 <font class="dot" aria-hidden="true" color="#ec4899">.</font>
-                                价格
+                                性价比
                             </span>
                             <p>顶尖团队、高性价比、快速交付、优质服务。</p>
                         </div>
@@ -139,6 +141,9 @@
                 QQ：1076289428
             </p>
         </div>
+
+
+        <img src="/static/img/icon-home.png" width="50px" style="position:fixed;right:10px;bottom: 30vh;cursor: pointer" onclick="backTop()">
 
     </main>
 
@@ -184,6 +189,15 @@
             event.element.lastPageNum = event.pageNum;
         }
         )
+
+
+        function backTop (){
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
+        }
+
+
+
+
     </script>
 
 </body>
